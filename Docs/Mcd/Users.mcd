@@ -1,0 +1,7 @@
+SCOPE: scope_id, brand, model, magnification, lengthUnit, lengthClic, valueClic
+has2, 1N USER, 1N SCOPE
+USER: user_id, firstName, lastName, email, hashedPassword
+has, 1N USER, 1N BULLET
+BULLET: bullet_id, brand, model, caliber, speed, dro, weight
+
+
