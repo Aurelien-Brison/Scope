@@ -15,7 +15,7 @@ import store from 'src/store';
 //    => crée une structure d'objets imbriqués (DOM virtuel)
 const rootReactElement = (
   <Router>
-    <Provider store= {store}>
+    <Provider store={store}>
       <App />
     </Provider>
   </Router>

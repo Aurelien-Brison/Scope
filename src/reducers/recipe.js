@@ -1,7 +1,6 @@
 // import data from 'src/data/exchangeData';
 
-import { SAVE_RECIPES} from "src/actions/recipe";
-import data from 'src/data';
+import { SAVE_RECIPES } from 'src/actions/recipe';
 
 const initialState = {
   recipes: null,
