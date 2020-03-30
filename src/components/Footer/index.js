@@ -10,7 +10,15 @@ const Footer = () => {
 
   return (
     <FooterStyled>
-      Footer
+      <div>
+        Qui sommes-nous ?
+      </div>
+      <div>
+        Mentions légales
+      </div>
+      <div>
+        Nous contacter
+      </div>
     </FooterStyled>
   );
 };

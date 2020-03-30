@@ -13,4 +13,16 @@ padding: 2rem;
   font-size: 5rem;
 }
 
+.header-btns {
+
+}
+
+.signin-btn {
+
+}
+
+.signup-btn {
+  
+}
+
 `;

@@ -11,9 +11,20 @@ const Header = () => {
 
   return (
     <HeaderStyled>
-      <GoSignIn />
       <div className="app-title">
         Scope
+      </div>
+      <div className="header-btns">
+        <button
+          className="signin-btn"
+          type="button"
+        >Se connecter
+        </button>
+        <button
+          className="signup-btn"
+          type="button"
+        >S'inscrire
+        </button>
       </div>
     </HeaderStyled>
   );
