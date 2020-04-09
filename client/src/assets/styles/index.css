@@ -1,0 +1,70 @@
+@import 'reset';
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/* Specific */
+body {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+/* Google Button */
+span[id^=not_signed_]:before {
+  content: 'Connexion avec Google';
+  padding-right:20px;
+}
+
+/* Facebook button */
+.fb-btn {
+  height: 3rem;
+  width: 15rem;
+  border-radius: 4px;
+  background: #3b5998;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  display: inline-block;
+}
+
+.btnGoogle {
+  margin:5px;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 4px;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  border:0px transparent;
+  text-align: center;
+  opacity: 1 !important;
+}
+
+.btnFacebook:hover {
+  background: #3b5998;
+  opacity: 0.6;
+}
+
+.btnGoogle:hover {
+  background: #db3236;
+  opacity: 0.6;
+}

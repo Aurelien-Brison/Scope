@@ -27,10 +27,17 @@ export default styled.div`
     align-items: center;
   }
 
+  .btn-link {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+
   .start-btn {
+    align-items: center;
     margin: 20px;
     font-size: 1.5rem;
-    width: 35%;
+    width: 100%;
     height: 70px;
     border-radius: 15px;
     border: transparent;

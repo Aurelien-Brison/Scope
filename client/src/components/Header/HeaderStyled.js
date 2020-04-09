@@ -14,15 +14,18 @@ padding: 2rem;
 }
 
 .header-btns {
-
+  padding: 30px;
 }
 
 .signin-btn {
-
+  padding: 30px;
 }
 
 .signup-btn {
   
 }
 
+.navlink {
+  padding: 30px;
+}
 `;

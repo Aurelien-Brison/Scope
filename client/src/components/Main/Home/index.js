@@ -1,6 +1,8 @@
 // == Import npm
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+
 
 import HomeStyled from './HomeStyled';
 // == Import
@@ -17,12 +19,16 @@ const Home = () => {
           <div className="start-block">
             <h3>Réglage basique</h3>
             <h4>Sans connexion - Visiteur</h4>
-            <button type="button" className="start-btn">Réglage rapide</button>
+            <Link className="btn-link" to="/quickstart">
+              <button type="button" className="start-btn">Réglage rapide</button>
+            </Link>
           </div>
           <div className="start-block">
             <h3>Réglage avancé</h3>
             <h4>Réglage DRO - Enregistrer votre équipement - Partager vos réglages</h4>
-            <button type="button" className="start-btn">Réglage avancé</button>
+            <Link className="btn-link" to="/advanced">
+              <button type="button" className="start-btn">Réglage avancé</button>
+            </Link>
           </div>
         </div>
         <div className="col-md-7 right-home"></div>
